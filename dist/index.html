@@ -1,0 +1,668 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Trening Strzelecki z Profesjonalistą</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="size-full group/design-root dark relative flex min-h-screen flex-col overflow-x-hidden bg-[#231a10]"
+      style="
+        --select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(203,173,144)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e');
+        font-family: Lexend, 'Noto Sans', sans-serif;
+      "
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#493622] px-10 py-3"
+        >
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2
+              class="text-lg font-bold leading-tight tracking-[-0.015em] text-white"
+            >
+              Precision Firearms Training
+            </h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-sm font-medium leading-normal text-white" href="#"
+                >Home</a
+              >
+              <a class="text-sm font-medium leading-normal text-white" href="#"
+                >Courses</a
+              >
+              <a class="text-sm font-medium leading-normal text-white" href="#"
+                >Pricing</a
+              >
+              <a class="text-sm font-medium leading-normal text-white" href="#"
+                >About</a
+              >
+              <a class="text-sm font-medium leading-normal text-white" href="#"
+                >Contact</a
+              >
+            </div>
+            <button
+              class="flex h-10 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-[#f2800d] px-4 text-sm font-bold leading-normal tracking-[0.015em] text-[#231a10]"
+            >
+              <span class="truncate">Book Now</span>
+            </button>
+          </div>
+        </header>
+        <div class="flex flex-1 justify-center px-40 py-5">
+          <div class="flex-1 flex-col">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="@[480px]:gap-8 @[480px]:rounded-lg @[480px]:px-10 flex min-h-[480px] flex-col items-start justify-end gap-6 bg-cover bg-center bg-no-repeat px-4 pb-10"
+                  style="
+                    background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.1) 0%,
+                        rgba(0, 0, 0, 0.4) 100%
+                      ),
+                      url('https://lh3.googleusercontent.com/aida-public/AB6AXuBerhqxcEgHYl2cTaBw1qLmMjipxGUvpikYYFwXkXBPizyW76X1X1u1Z2ShLOYKLzalp8Zj6jpXMv0WRy3okppe6OzbT3-MB_TsYtZqkULhonuDcqItjk0-MI6eFll0u39iY0XjLqIYBpSH0Pwc9Kq8NHtYdkmJ1Tn7W8o8YtiPoJ2wk8h9Gi7MSP8IYegGEIfK8Gg-F4bFz1fBOtzY-kYsfTE8o9P8yC-a04yupytqJWQJOIytMGem1-Xve5rXlxuCZqSC0C17fVk');
+                  "
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="@[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-4xl font-black leading-tight tracking-[-0.033em] text-white"
+                    >
+                      Trening Strzelecki z Profesjonalistą
+                    </h1>
+                    <h2
+                      class="@[480px]:text-base @[480px]:font-normal @[480px]:leading-normal text-sm font-normal leading-normal text-white"
+                    >
+                      <strong>Opanuj broń, zadbaj o swoje bezpieczeństwo</strong
+                      ><br />
+                      Podnieś swoje umiejętności dzięki profesjonalnym
+                      szkoleniom strzeleckim prowadzonym przez certyfikowanego
+                      instruktora. Niezależnie od tego, czy dopiero zaczynasz
+                      swoją przygodę ze strzelectwem, czy chcesz doskonalić
+                      zaawansowane techniki – znajdziesz u nas kompleksowe kursy
+                      oparte na bezpieczeństwie, precyzji i pewności siebie.
+                    </h2>
+                  </div>
+                  <button
+                    class="@[480px]:h-12 @[480px]:px-5 @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] flex h-10 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-[#f2800d] px-4 text-sm font-bold leading-normal tracking-[0.015em] text-[#231a10]"
+                  >
+                    <span class="truncate">Zapisz się</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2
+              class="px-4 pb-3 pt-5 text-[22px] font-bold leading-tight tracking-[-0.015em] text-white"
+            >
+              Dostępne kursy
+            </h2>
+            <div class="p-4">
+              <div class="gap-4 rounded-lg lg:grid lg:grid-cols-2">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-base font-bold leading-tight text-white">
+                      Szkolenie podstawowe – Bezpieczeństwo i obsługa broni
+                    </p>
+                    <p
+                      class="text-sm font-normal leading-normal text-[#cbad90]"
+                    >
+                      Poznaj fundamenty bezpiecznego posługiwania się bronią,
+                      jej obsługi oraz podstawowych technik strzeleckich.
+                      Idealne dla nowych właścicieli broni lub osób chcących
+                      odświeżyć wiedzę.
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Podstawy bezpieczeństwa
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Podstawowe techniki obsługi
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Prywatne zajęcia z instruktorem
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      50 strzałów 0.22LR
+                    </div>
+                  </div>
+                  <p class="flex items-baseline gap-1 text-white">
+                    <span
+                      class="text-4xl font-black leading-tight tracking-[-0.033em] text-white"
+                      >200</span
+                    >
+                    <span class="text-base font-bold leading-tight text-white"
+                      >zł/zajęcia</span
+                    >
+                  </p>
+                </div>
+                <div
+                  class="my-8 aspect-video w-full flex-1 rounded-lg bg-cover bg-center bg-no-repeat"
+                  style="
+                    background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDKzcN-qDzGDuE-ze0OGkyFlTX9EQDpKnriV3ClGVZ9697BAonz9VgkV2zSlIKQCF38si1mcpUM2LAkEGw32C8_3scvpFf8560sW1IgFZld8kVjsXcV6NsquSqsXZZecsI8dm_y-cdU9HujxpX85eZZ_kXFU0KAl_H4G6P1_n3guwhtmGclxcTA9TUp0SFrb93JtVK6Xefbevw9VLFPXHGIaulsBHYJzUo6GSLekVPoFOSX3R7XCadPOoTFVM66T6sT9mJVkcQshdU');
+                  "
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="gap-4 rounded-lg lg:grid lg:grid-cols-2">
+                <div class="gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-base font-bold leading-tight text-white">
+                      Doskonalenie umiejętności / przygotowanie do egzaminu PZSS
+                    </p>
+                    <p
+                      class="text-sm font-normal leading-normal text-[#cbad90]"
+                    >
+                      Enhance your accuracy and speed with advanced drills and
+                      tactical scenarios. Build confidence and proficiency in
+                      various shooting positions.
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-2 pt-3">
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Przygotowanie do egzaminu
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Profesjonalne techniki obsługi
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Prywatne zajęcia z instruktorem
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      40 strzałów 0.22LR + 40 strzałów 9mm
+                    </div>
+                  </div>
+                  <p class="flex items-baseline gap-1 pt-2 text-white">
+                    <span
+                      class="text-4xl font-black leading-tight tracking-[-0.033em] text-white"
+                      >300</span
+                    >
+                    <span class="text-base font-bold leading-tight text-white"
+                      >zł/zajęcia</span
+                    >
+                  </p>
+                </div>
+                <div
+                  class="my-8 aspect-video w-full flex-1 rounded-lg bg-cover bg-center bg-no-repeat"
+                  style="
+                    background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCW-OqGNPCSB7ba4egaHYXM--2bQyUgmculN9U_Ivpfwz6eFbbHgLW8QIMZ-Z8A8qerEYOPYDBUZe1jM3Be4_24DVE-wCHt407WoxBLRHmN0Hi6bVvHRoVMODlnK6un-vD3-GfwdaTQTEDWMtcYkrlGn5xHOKFpksUmnbqZ3CXDI-E9nSlO1Z5o5_sCWP1v6CFESjg7Gnj2J0FK2sP6w3XAuAGHEJXKV6dM_kEOm2baA7kWBS4CLgRZ0o_APTULNve_DB0NVTlOpCQ');
+                  "
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="gap-4 rounded-lg lg:grid lg:grid-cols-2">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-base font-bold leading-tight text-white">
+                      Szkolenie zaawansowane
+                    </p>
+                    <p
+                      class="text-sm font-normal leading-normal text-[#cbad90]"
+                    >
+                      Program dla osób, które chcą osiągnąć najwyższy poziom
+                      wyszkolenia. Przygotowanie do zawodów strzeleckich,
+                      rozbudowane scenariusze samoobrony i certyfikacja
+                      potwierdzająca profesjonalne umiejętności.
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Poprawa celności
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Profesjonalne techniki obsługi
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      Prywatne zajęcia z instruktorem
+                    </div>
+                    <div
+                      class="flex gap-3 text-[13px] font-normal leading-normal text-white"
+                    >
+                      <div
+                        class="text-white"
+                        data-icon="Check"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20px"
+                          height="20px"
+                          fill="currentColor"
+                          viewBox="0 0 256 256"
+                        >
+                          <path
+                            d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      50 strzałów 0.22LR + 50 strzałów 9mm
+                    </div>
+                  </div>
+                  <p class="flex items-baseline gap-1 text-white">
+                    <span
+                      class="text-4xl font-black leading-tight tracking-[-0.033em] text-white"
+                      >400</span
+                    >
+                    <span class="text-base font-bold leading-tight text-white"
+                      >zł/zajęcia</span
+                    >
+                  </p>
+                </div>
+                <div
+                  class="my-8 aspect-video w-full flex-1 rounded-lg bg-cover bg-center bg-no-repeat"
+                  style="
+                    background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAxCen-POKLMdJhPVvslBpw-lyVIWi2EJkwBPFoxNoddfZoCn5HtFKdYIhlCsqAboJsj9CmDh1Hm_tB91RLcRzXEdw7SVAtTsyP3cGGIXgM98nkcCnZJ07zu2I6Z5WAQdqoQXLcyWCVpO70hhk6cXp6dK2zvepbdwWvBp64X0IwYHX5R_GyDpz4RSb7Icefxy7qyQDU6iPISnCxRONfGy8std0VQHpFV7njyOmAOJxcFeqqMVVQBNALLIJmplRT8_o5kNOHWjBnUIo');
+                  "
+                ></div>
+              </div>
+            </div>
+
+            <div class="lg:grid lg:grid-cols-2 lg:gap-4">
+              <div>
+                <h2
+                  class="px-4 pb-3 pt-5 text-[22px] font-bold leading-tight tracking-[-0.015em] text-white"
+                >
+                  O mnie
+                </h2>
+                <div class="@container flex p-4">
+                  <div
+                    class="@[520px]:flex-row @[520px]:justify-between @[520px]:items-center flex w-full flex-col gap-4"
+                  >
+                    <div class="flex gap-4">
+                      <div class="flex flex-col justify-center">
+                        <p
+                          class="font-bold leading-tight tracking-[-0.015em] text-white"
+                        >
+                          Krzysztof Dąbrowski
+                        </p>
+                        <p
+                          class="text-base font-normal leading-normal text-[#cbad90]"
+                        >
+                          Od wielu lat związany jestem ze strzelectwem sportowym
+                          oraz praktycznym. Strzelanie to nie tylko moja pasja,
+                          ale także droga do ciągłego rozwoju, dyscypliny i
+                          budowania pewności siebie.<br /><br />
+
+                          Posiadam pozwolenie na broń oraz uprawnienia
+                          prowadzącego strzelanie, dzięki czemu mogę w pełni
+                          profesjonalnie i bezpiecznie dzielić się wiedzą z
+                          innymi. Wieloletnie doświadczenie na strzelnicy
+                          pozwala mi skutecznie szkolić zarówno osoby, które
+                          dopiero zaczynają swoją przygodę z bronią, jak i tych,
+                          którzy chcą doskonalić technikę na wyższym
+                          poziomie.<br /><br />
+
+                          Podczas szkoleń kładę szczególny nacisk na:<br />
+                          • <strong>bezpieczeństwo</strong> – fundament każdego
+                          treningu,<br />
+                          • <strong>dokładność i precyzję</strong>,<br />
+                          • <strong>praktyczne umiejętności</strong>, które
+                          sprawdzają się w realnych sytuacjach.<br /><br />
+
+                          Moim celem jest nie tylko nauczenie obsługi broni, ale
+                          przede wszystkim budowanie pewności siebie i
+                          odpowiedzialności każdego strzelca.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h2
+                  class="px-4 pb-3 pt-5 text-[22px] font-bold leading-tight tracking-[-0.015em] text-white"
+                >
+                  Kontakt i zapisy
+                </h2>
+                <form action="https://submit-form.com/T7CqMt15" method="POST">
+                  <div
+                    class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3"
+                  >
+                    <label class="min-w-40 flex flex-1 flex-col">
+                      <input
+                        type="text"
+                        name="name"
+                        autocomplete="name"
+                        required
+                        placeholder="Imię i nazwisko*"
+                        class="form-input flex h-14 w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border-none bg-[#493622] p-4 text-base font-normal leading-normal text-white placeholder:text-[#cbad90] focus:border-none focus:outline-0 focus:ring-0"
+                        value=""
+                      />
+                    </label>
+                  </div>
+                  <div
+                    class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3"
+                  >
+                    <label class="min-w-40 flex flex-1 flex-col">
+                      <input
+                        type="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                        placeholder="Email*"
+                        class="form-input flex h-14 w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border-none bg-[#493622] p-4 text-base font-normal leading-normal text-white placeholder:text-[#cbad90] focus:border-none focus:outline-0 focus:ring-0"
+                        value=""
+                      />
+                    </label>
+                  </div>
+                  <div
+                    class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3"
+                  >
+                    <label class="min-w-40 flex flex-1 flex-col">
+                      <input
+                        type="tel"
+                        name="phone"
+                        autocomplete="tel"
+                        placeholder="Telefon"
+                        class="form-input flex h-14 w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border-none bg-[#493622] p-4 text-base font-normal leading-normal text-white placeholder:text-[#cbad90] focus:border-none focus:outline-0 focus:ring-0"
+                        value=""
+                      />
+                    </label>
+                  </div>
+                  <div
+                    class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3"
+                  >
+                    <label class="min-w-40 flex flex-1 flex-col">
+                      <select
+                        name="course"
+                        class="form-input flex h-14 w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border-none bg-[#493622] bg-[image:--select-button-svg] p-4 text-base font-normal leading-normal text-white placeholder:text-[#cbad90] focus:border-none focus:outline-0 focus:ring-0"
+                      >
+                        <option value="" selected>Wybierz kurs</option>
+                        <option value="two">Szkolenie podstawowe</option>
+                        <option value="pzss">
+                          Przygotowanie do egzaminu PZSS
+                        </option>
+                        <option value="advanced">Szkolenie zaawansowane</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div
+                    class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3"
+                  >
+                    <label class="min-w-40 flex flex-1 flex-col">
+                      <textarea
+                        name="message"
+                        placeholder="Wiadomość"
+                        class="form-input min-h-36 flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border-none bg-[#493622] p-4 text-base font-normal leading-normal text-white placeholder:text-[#cbad90] focus:border-none focus:outline-0 focus:ring-0"
+                      ></textarea>
+                    </label>
+                  </div>
+                  <div class="flex justify-end px-4 py-3">
+                    <button
+                      type="submit"
+                      class="flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-[#f2800d] px-5 text-base font-bold leading-normal tracking-[0.015em] text-[#231a10]"
+                    >
+                      <span class="truncate">Wyślij</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer
+              class="@container flex flex-col gap-6 px-5 py-10 text-center"
+            >
+              <p class="text-base font-normal leading-normal text-[#cbad90]">
+                © 2025 Trening Strzelecki z Profesjonalistą. All rights
+                reserved.
+              </p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
